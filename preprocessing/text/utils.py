@@ -11,8 +11,8 @@ from gensim.scripts.glove2word2vec import glove2word2vec
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 CONT_DATA_PATH = os.path.join(BASE_DIR, 'data', 'GoogleNews-vectors-negative300',
                               'GoogleNews-vectors-negative300.bin.gz')
-MINIFIED_ZIP_CONT_DATA_PATH = os.path.join(BASE_DIR, 'data', 'word2vec_sample', 'word2vec_sample.zip')
-MINIFIED_BIN_CONT_DATA_PATH = os.path.join(BASE_DIR, 'data', 'word2vec_sample', 'word2vec_sample.bin.gz')
+MINIFIED_CONT_DATA_PATH = os.path.join(BASE_DIR, 'data', 'GoogleNews-vectors-negative300-SLIM', 'GoogleNews-vectors-negative300-SLIM.bin.gz')
+#MINIFIED_BIN_CONT_DATA_PATH = os.path.join(BASE_DIR, 'data', 'word2vec_sample', 'word2vec_sample.bin.gz')
 
 
 class Utility(object):
@@ -53,7 +53,7 @@ class Utility(object):
         path = None
         url = None
         if minified_model == True:
-            path = MINIFIED_BIN_CONT_DATA_PATH
+            path = MINIFIED_CONT_DATA_PATH
             url = MCD
         else:
             path = CONT_DATA_PATH
@@ -79,10 +79,5 @@ class Utility(object):
 
     @classmethod
     def download_word_2_vec_model(cls, file_url, minified_file=True):
-        # Downloader.download(file_url)
-        if minified_file:
-            tmp_path = "/".join(MINIFIED_ZIP_CONT_DATA_PATH.split('/')[:-1])
-            glove2word2vec(MINIFIED_ZIP_CONT_DATA_PATH, MINIFIED_BIN_CONT_DATA_PATH)
-            shutil.rmtree()
-            print(tmp_path)
+        return Downloader.download(file_url)
 

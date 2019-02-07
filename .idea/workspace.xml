@@ -2,39 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="535a24af-bb6e-4724-9e47-1879f8136645" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/preprocessing/constants.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/preprocessing/dTypes/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/preprocessing/dTypes/contractions.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/preprocessing/sample.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/preprocessing/utils/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/preprocessing/utils/utility.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/preprocessing.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/preprocessing.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/preprocessing/data/corpora/stopwords/english" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/preprocessing/data/corpora/wordnet/LICENSE" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/preprocessing/data/corpora/wordnet/README" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/preprocessing/data/corpora/wordnet/adj.exc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/preprocessing/data/corpora/wordnet/adv.exc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/preprocessing/data/corpora/wordnet/citation.bib" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/preprocessing/data/corpora/wordnet/cntlist.rev" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/preprocessing/data/corpora/wordnet/data.adj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/preprocessing/data/corpora/wordnet/data.adv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/preprocessing/data/corpora/wordnet/data.noun" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/preprocessing/data/corpora/wordnet/data.verb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/preprocessing/data/corpora/wordnet/index.adj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/preprocessing/data/corpora/wordnet/index.adv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/preprocessing/data/corpora/wordnet/index.noun" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/preprocessing/data/corpora/wordnet/index.sense" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/preprocessing/data/corpora/wordnet/index.verb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/preprocessing/data/corpora/wordnet/lexnames" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/preprocessing/data/corpora/wordnet/noun.exc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/preprocessing/data/corpora/wordnet/verb.exc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/preprocessing/text/cleaner.py" beforeDir="false" afterPath="$PROJECT_DIR$/preprocessing/text/cleaner.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/preprocessing/constants.py" beforeDir="false" afterPath="$PROJECT_DIR$/preprocessing/constants.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/preprocessing/text/utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/preprocessing/text/utils.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_spellcheck.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_text.py" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -47,8 +16,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/preprocessing/text/utils.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="85" column="26" selection-start-line="85" selection-start-column="26" selection-end-line="85" selection-end-column="26" />
+            <state relative-caret-position="-30">
+              <caret line="13" column="44" lean-forward="true" selection-start-line="13" selection-start-column="44" selection-end-line="13" selection-end-column="44" />
               <folding>
                 <element signature="e#0#29#0" expanded="true" />
               </folding>
@@ -59,25 +28,26 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../venv/lib/python3.6/site-packages/pycontractions/contractions.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="435">
-              <caret line="314" column="51" selection-start-line="314" selection-start-column="51" selection-end-line="314" selection-end-column="51" />
-              <folding>
-                <element signature="e#0#39#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="30">
+              <caret line="2" column="31" selection-start-line="2" selection-start-column="31" selection-end-line="3" selection-end-column="38" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/preprocessing/constants.py">
-          <provider selected="true" editor-type-id="text-editor" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="2" selection-start-line="2" selection-end-line="2" />
+            </state>
+          </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/preprocessing/utils/utility.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="152">
-              <caret line="18" column="38" selection-start-line="18" selection-start-column="38" selection-end-line="18" selection-end-column="38" />
+            <state relative-caret-position="232">
+              <caret line="17" column="8" selection-start-line="17" selection-start-column="8" selection-end-line="17" selection-end-column="8" />
               <folding>
                 <element signature="e#0#36#0" expanded="true" />
               </folding>
@@ -105,8 +75,8 @@
         <option value="$PROJECT_DIR$/preprocessing/dTypes/contractions.py" />
         <option value="$PROJECT_DIR$/preprocessing/text/cleaner.py" />
         <option value="$PROJECT_DIR$/requirements.txt" />
-        <option value="$PROJECT_DIR$/preprocessing/constants.py" />
         <option value="$PROJECT_DIR$/preprocessing/utils/utility.py" />
+        <option value="$PROJECT_DIR$/preprocessing/constants.py" />
         <option value="$PROJECT_DIR$/preprocessing/text/utils.py" />
       </list>
     </option>
@@ -129,6 +99,23 @@
             <path>
               <item name="src" type="b2602c69:ProjectViewProjectNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="src" type="b2602c69:ProjectViewProjectNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="preprocessing" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="src" type="b2602c69:ProjectViewProjectNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="preprocessing" type="462c0819:PsiDirectoryNode" />
+              <item name="data" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="src" type="b2602c69:ProjectViewProjectNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="preprocessing" type="462c0819:PsiDirectoryNode" />
+              <item name="utils" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -174,12 +161,12 @@
       <updated>1549430743507</updated>
       <workItem from="1549430745456" duration="110000" />
       <workItem from="1549512906479" duration="406000" />
-      <workItem from="1549523467133" duration="14322000" />
+      <workItem from="1549523467133" duration="18571000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="30058000" />
+    <option name="totallyTimeSpent" value="34307000" />
   </component>
   <component name="TodoView" selected-index="3" />
   <component name="ToolWindowManager">
@@ -197,8 +184,8 @@
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32899022" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32899022" />
       <window_info anchor="bottom" id="Database Changes" order="8" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.32899022" />
-      <window_info anchor="bottom" id="Python Console" order="10" weight="0.3664495" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.32899022" />
+      <window_info active="true" anchor="bottom" id="Python Console" order="10" visible="true" weight="0.3664495" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="bottom" id="Docker" order="12" show_stripe_button="false" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -313,16 +300,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../venv/lib/python3.6/site-packages/pycontractions/contractions.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="314" column="51" selection-start-line="314" selection-start-column="51" selection-end-line="314" selection-end-column="51" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/preprocessing/dTypes/contractions.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
@@ -335,8 +312,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/preprocessing/utils/utility.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="18" column="38" selection-start-line="18" selection-start-column="38" selection-end-line="18" selection-end-column="38" />
+        <state relative-caret-position="232">
+          <caret line="17" column="8" selection-start-line="17" selection-start-column="8" selection-end-line="17" selection-end-column="8" />
           <folding>
             <element signature="e#0#36#0" expanded="true" />
           </folding>
@@ -344,12 +321,23 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/preprocessing/constants.py">
-      <provider selected="true" editor-type-id="text-editor" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../venv/lib/python3.6/site-packages/pycontractions/contractions.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="31" selection-start-line="2" selection-start-column="31" selection-end-line="3" selection-end-column="38" />
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/preprocessing/text/utils.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="85" column="26" selection-start-line="85" selection-start-column="26" selection-end-line="85" selection-end-column="26" />
+        <state relative-caret-position="-30">
+          <caret line="13" column="44" lean-forward="true" selection-start-line="13" selection-start-column="44" selection-end-line="13" selection-end-column="44" />
           <folding>
             <element signature="e#0#29#0" expanded="true" />
           </folding>

@@ -92,3 +92,5 @@ celerybeat-schedule
 
 # custom 
 pre-env/*
+
+**/data/GoogleNews*
