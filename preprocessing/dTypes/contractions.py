@@ -1,0 +1,2 @@
+class Contractions(object):
+    pass

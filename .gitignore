@@ -78,6 +78,7 @@ celerybeat-schedule
 **/.venv
 **/venv/
 **/ENV/
+**/word2vec_sample
 
 
 # Rope project settings

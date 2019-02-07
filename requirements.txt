@@ -3,3 +3,4 @@ sphinx-rtd-theme==0.2.4
 word2number
 beautifulsoup4
 pycontractions==2.0.0
+tqdm==4.30.0
